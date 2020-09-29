@@ -57,7 +57,9 @@ body {
   align-items: center; }
   @media only screen and (max-width: 31.5em) {
     .header {
-      flex-wrap: wrap; } }
+      flex-wrap: wrap;
+      align-content: space-around;
+      height: 12rem; } }
 
 .content {
   display: flex; }
