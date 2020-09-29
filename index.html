@@ -12,9 +12,48 @@
     </head>
     <body>
         <div class="container">
+            <!-- Header  -->
             <header class="header">
-                Header
-            </header>
+                <!-- Logo -->
+                <img src="img/logo.png" alt="trillo logo" class="logo">
+
+                <!-- Search Box -->
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search Hotels">
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                        </svg>
+                    </button>
+                </form> <!-- Search Box / -->
+
+                <!-- Navigation -->
+                <nav class="user-nav">
+                    <!-- Boxes - Box 1 -->
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                        </svg>
+                        <span class="user-nav__notification">7</span>
+                    </div> <!-- Boxes - Box 1 / -->
+
+                    <!-- Boxes - Box 2 -->
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-chat"></use>
+                        </svg>
+                        <span class="user-nav__notification">13</span>
+                    </div> <!-- Boxes - Box 2 / -->
+
+                    <!-- Boxes - Box 3 -->
+                    <div class="user-nav__user">
+                        <img src="img/user.jpg" alt="" class="user-nav__user-photo">
+                        <span class="user-nav__user-name">Jonas</span>
+                    </div> <!-- Boxes - Box 3 / -->
+
+                </nav> <!-- Navigation / -->
+
+            </header> <!-- Header / -->
 
             <div class="content">
                 <nav class="sidebar">
